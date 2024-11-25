@@ -12,9 +12,24 @@
             <skos:ConceptScheme rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithostratigraphy">
                 <skos:prefLabel xml:lang="nl">Conceptschema Lithostratigraphie</skos:prefLabel>
             </skos:ConceptScheme>
-            <xsl:apply-templates  select="li" />
+            <skos:Concept>
+                <xsl:attribute name="rdf:about">
+                    <xsl:value-of select="replace(replace(li/a/@href,'ncs.naturalsciences.be','data.bodemenondergrond.vlaanderen.be/id/concept'),'/$', '')"/>
+                </xsl:attribute>
+                <skos:prefLabel xml:lang="en">
+                    <xsl:value-of select="li/a"/>
+                </skos:prefLabel>
+                <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithostratigraphy"/>
+                <dct:source>
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="li/a/@href"/>
+                    </xsl:attribute>
+                </dct:source>
+                <xsl:apply-templates  select="li/li" />
+            </skos:Concept>
         </rdf:RDF>
     </xsl:template>
+
 
     <xsl:template match="li" >
         <skos:narrower>
