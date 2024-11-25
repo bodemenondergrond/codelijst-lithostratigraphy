@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-lithostratigraphy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/bash/01_csv_to_rdf.sh",
+  "scripts": {
+    "create_metadata": "cd src && node 02_metadata.js"
+  },
+
+  "keywords": [
+    "milieuinfo",
+    "Bodem en ondergrond",
+    "linked data",
+    "skos",
+    "rdfjs",
+    "dcat",
+    "n3-reasoning",
+    "maven"
+  ],
+  "author": "Geert Van Haute",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "maven-metadata-generator-npm": "^0.2.56"
+  }
+}
