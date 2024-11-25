@@ -1153,8 +1153,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Bertraimont Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:beusdal-member",
@@ -1393,8 +1392,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Boncelles Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:booischot-bed/",
@@ -1409,7 +1407,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Booischot Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "fO"
         },
         {
@@ -1536,7 +1533,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Botrange Bed Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "tB"
         },
         {
@@ -1839,7 +1835,8 @@
                 "concept:gottignies-formation/",
                 "concept:souvre-formation-2/",
                 "concept:souvre-formation/"
-            ]
+            ],
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:catillon-formation",
@@ -2344,7 +2341,8 @@
                 "concept:pommeroeul-greensand-formation",
                 "concept:saint-barbe-clays-formation",
                 "concept:saint-pierre-gravel-formation"
-            ]
+            ],
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:de-haan-member",
@@ -2465,7 +2463,8 @@
             "type": "skos:Concept",
             "source": "https://ncs.naturalsciences.be/lithostratigraphy/devonian/",
             "inScheme": "conceptscheme:lithostratigraphy",
-            "prefLabel": "Devonian"
+            "prefLabel": "Devonian",
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:diest-formation",
@@ -2878,8 +2877,7 @@
             "broaderTransitive": "concept:quaternary",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Enstatite Tephra Bed",
-            "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:quaternary"
         },
         {
             "id": "concept:erquelines-member",
@@ -2912,8 +2910,7 @@
             "broaderTransitive": "concept:quaternary",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Ertville Tephra Bed",
-            "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:quaternary"
         },
         {
             "id": "concept:flemish-hills-formation/",
@@ -2923,8 +2920,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Flemish Hills Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:flenu-formation",
@@ -3246,8 +3242,7 @@
             "broaderTransitive": "concept:carboniferous",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Gottignies Formation",
-            "semanticRelation": "concept:carboniferous",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:carboniferous"
         },
         {
             "id": "concept:gottignies-formation/",
@@ -3257,8 +3252,7 @@
             "broaderTransitive": "concept:carboniferous",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Gottignies Formation",
-            "semanticRelation": "concept:carboniferous",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:carboniferous"
         },
         {
             "id": "concept:grandglise-member",
@@ -4176,7 +4170,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Inden Formation",
             "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "In",
             "age": "The Inden Formation identified in the Belgian RVG corresponds to the latest part of the Inden Formation in the Lower Rhine Basin Inden Formation. Based on dinoflagellate content it is considered end Tortonian  as discussed in Louwye & Vandenberghe (2020).",
             "area_of_occurrence": "The Inden Formation as defined in the Maaseik reference borehole occurs in the Belgian part of the RVG east of the main bordering faults of Neeroeteren and Reppel as suggested by borehole correlations to Jagersborg (049W0236/ Kb18d49w-B235), Kinrooi (049W0230/ Kb18d49w-B230) and St.-Huibrechts-Lille (033W0139/Kb18d33w-B142) boreholes in fig.6 in Vandenberghe et al. (2020).",
@@ -4349,8 +4342,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Kattendijk Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:kempen-diest-member",
@@ -4713,8 +4705,7 @@
             "broaderTransitive": "concept:quaternary",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Laacher See Tephra Bed",
-            "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:quaternary"
         },
         {
             "id": "concept:lanaken-formation",
@@ -5130,7 +5121,8 @@
             "type": "skos:Concept",
             "source": "https://ncs.naturalsciences.be/lithostratigraphy/lower-paleozoic/",
             "inScheme": "conceptscheme:lithostratigraphy",
-            "prefLabel": "Lower Paleozoic"
+            "prefLabel": "Lower Paleozoic",
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:luchtbal-member",
@@ -5496,8 +5488,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Merksplas Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:merlin-member",
@@ -5682,8 +5673,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Molenbeersel Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:mons-en-pevele-formation",
@@ -6094,8 +6084,7 @@
             "broaderTransitive": "concept:quaternary",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Oostende Formation",
-            "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:quaternary"
         },
         {
             "id": "concept:oostwinkel-formation",
@@ -6662,7 +6651,8 @@
                 "concept:voort-member",
                 "concept:watervliet-member",
                 "concept:wintelre-member"
-            ]
+            ],
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:pervijze-bed/",
@@ -6677,7 +6667,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Pervijze Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "tP"
         },
         {
@@ -6787,7 +6776,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Poppel Facies",
             "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "Po",
             "age": "The Poppel Facies has a late Miocene to early Pliocene age, based on its stratigraphic position in between the underlying Diest Formation and overlying Kattendijk Formation.",
             "area_of_occurrence": "Although the Poppel Facies was only described in the Weelde (BGD 008E0133) borehole, a more recent drilling at Weelde-vlieghaven (DOV kb8d8e-B161) shows a comparable borehole log interval but no further analyses in the interval of concern are available.",
@@ -7012,7 +7000,8 @@
                 "concept:riemst-member",
                 "concept:the-rozebeke-formation",
                 "concept:vlijtingen-member"
-            ]
+            ],
+            "topConceptOf": "conceptscheme:lithostratigraphy"
         },
         {
             "id": "concept:ransart-member",
@@ -7074,7 +7063,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Rees Facies",
             "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "Re",
             "age": "In a dinoflagellate study of the Rees borehole, Al-Silwadi (2017) found mid- to late Pliocene age dinoflagellate cysts above and below the Rees Facies but all samples in the Rees Facies itself are barren.",
             "area_of_occurrence": "The Rees Facies is occurring at the south-eastern end of the Merksplas Formation. It is bordered to the east by the finer-grained Donk Member of the Mol Formation. Geometrically the Mol Formation seems to occur laterally of the relatively coarse Merksplas Formation (Laga, 1976 – profiles 76/106/2 and 75/104/1) (see also Lithostratigraphic Identification sheet  Merksplas Formation). The Rees Facies was mapped on the 8/2 Turnhout Meerle geological map (Buffel et al., 2002) as part of the Mol Formation (see above). To the west of the Rees Facies occur the Schorvoort, Hemeldonk and Malle facies discussed in Buffel et al. (2001) and mapped as Brasschaat Formation on the 8/2 Turnhout Meerle geological map (Buffel et al., 2002).  To the north in the subsurface of the Antwerp province, the identification of the Brasschaat Formation in general is not obvious (Laga, 1976 –profile PGL76/106/3) . In the Geologica Belgica Neogene Volume 2020 (Louwye et al. (2020) and Vandenberghe and Louwye (2020)), the Pliocene quartz sand in the west have been named the Merksplas Formation and not Brasschaat Member as this last name is reserved in the NCS for Pleistocene fine-sized sand.",
@@ -7169,7 +7157,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Rocourt Soil Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "wR"
         },
         {
@@ -7613,8 +7600,7 @@
             "broaderTransitive": "concept:carboniferous",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Souvré Formation",
-            "semanticRelation": "concept:carboniferous",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:carboniferous"
         },
         {
             "id": "concept:souvre-formation/",
@@ -7624,8 +7610,7 @@
             "broaderTransitive": "concept:carboniferous",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Souvré Formation",
-            "semanticRelation": "concept:carboniferous",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:carboniferous"
         },
         {
             "id": "concept:spiennes-chalk-formation",
@@ -8027,7 +8012,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Treignes Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "uT"
         },
         {
@@ -8123,7 +8107,6 @@
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Usselo Soil Bed",
             "semanticRelation": "concept:quaternary",
-            "topConceptOf": "conceptscheme:lithostratigraphy",
             "abbreviation": "wU"
         },
         {
@@ -8731,8 +8714,7 @@
             "broaderTransitive": "concept:paleogene-neogene",
             "inScheme": "conceptscheme:lithostratigraphy",
             "prefLabel": "Wurfeld Formation",
-            "semanticRelation": "concept:paleogene-neogene",
-            "topConceptOf": "conceptscheme:lithostratigraphy"
+            "semanticRelation": "concept:paleogene-neogene"
         },
         {
             "id": "concept:zandvliet-member",
@@ -8908,30 +8890,12 @@
             "id": "conceptscheme:lithostratigraphy",
             "type": "skos:ConceptScheme",
             "hasTopConcept": [
-                "concept:bertraimont-formation/",
-                "concept:boncelles-formation/",
-                "concept:booischot-bed/",
-                "concept:botrange-bed-bed/",
-                "concept:gottignies-formation-2/",
-                "concept:gottignies-formation/",
-                "concept:souvre-formation-2/",
-                "concept:souvre-formation/",
-                "concept:enstatite-tephra-bed/",
-                "concept:ertville-tephra-bed/",
-                "concept:flemish-hills-formation/",
-                "concept:inden-formation/",
-                "concept:kattendijk-formation/",
-                "concept:laacher-see-tephra-bed/",
-                "concept:merksplas-formation/",
-                "concept:molenbeersel-formation/",
-                "concept:oostende-formation/",
-                "concept:poppel-facies/",
-                "concept:rees-facies/",
-                "concept:wurfeld-formation/",
-                "concept:pervijze-bed/",
-                "concept:rocourt-soil-bed/",
-                "concept:treignes-bed/",
-                "concept:usselo-soil-bed/"
+                "concept:cretaceous",
+                "concept:paleogene-neogene",
+                "concept:quaternary",
+                "concept:carboniferous",
+                "concept:devonian",
+                "concept:lower-paleozoic"
             ],
             "prefLabel": "Conceptschema Lithostratigraphie"
         }
