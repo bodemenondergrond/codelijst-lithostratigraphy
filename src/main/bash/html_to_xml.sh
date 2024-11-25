@@ -23,4 +23,4 @@ for i in `find  lithostratigraphy/ -type d` ; do
 done
 cat $(find | grep ttl$ ) | grep PREFIX > /tmp/lithostratigraphy.ttl
 riot $(find | grep ttl$ ) | sort -u >> /tmp/lithostratigraphy.ttl
-riot --formatted=turtle /tmp/lithostratigraphy.ttl > ../../main/resources/be/vlaanderen/bodemenondergrond/data/id/conceptscheme/lithostratigraphy/lithostratigraphy.ttl
+riot --formatted=turtle /tmp/lithostratigraphy.ttl > /home/gehau/git/bodem_en_ondergrond/codelijst-lithostratigraphy/src/main/resources/be/vlaanderen/bodemenondergrond/data/id/conceptscheme/lithostratigraphy/lithostratigraphy.ttl

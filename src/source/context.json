@@ -1,4 +1,59 @@
 {
+
+
+  "abbreviation" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#abbreviation",
+    "@language" : "en"
+  },
+  "age" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#age",
+    "@language" : "en"
+  },
+  "alternative_names" : {
+    "@id" : "skos:altLabel",
+    "@language" : "en"
+  },
+  "area_of_occurrence" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#area_of_occurrence",
+    "@language" : "en"
+  },
+  "authors" : {
+    "@id" : "http://purl.org/dc/elements/1.1/creator",
+    "@language" : "en"
+  },
+  "child_unit" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#child_unit",
+    "@language" : "en"
+  },
+  "child_units" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#child_units",
+    "@language" : "en"
+  },
+  "cite_as" : {
+    "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+    "@language" : "en"
+  },
+  "date" : {
+    "@id" : "http://purl.org/dc/terms/date"
+  },
+  "lithological_description" : {
+    "@id" : "http://purl.org/dc/terms/description",
+    "@language" : "en"
+  },
+  "parent_unit" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#parent_unit",
+    "@language" : "en"
+  },
+  "thickness" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#thickness",
+    "@language" : "en"
+  },
+  "type_locality" : {
+    "@id" : "https://data.vlaanderen.be/ns/bodemenondergrond#type_locality",
+    "@language" : "en"
+  },
+
+
     "sparql-service-description-graph": {
     "@id" : "http://www.w3.org/ns/sparql-service-description#graph",
     "@type" : "@id"
@@ -68,6 +123,9 @@
     "@id" : "http://purl.org/dc/terms/title",
     "@language" : "nl"
   },
+
+
+
   "landingPage" : {
     "@id" : "http://www.w3.org/ns/dcat#landingPage",
     "@type" : "@id"

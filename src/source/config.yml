@@ -10,7 +10,7 @@ skos:
   name: lithostratigraphy
   turtle: .ttl
   jsonld: .jsonld
-  xsd: .xsd
+  #xsd: .xsd
   csv: .csv
   xlsx: .xlsx
   nt: .nt
@@ -91,10 +91,10 @@ metadata :
       mediaType: https://www.iana.org/assignments/media-types/text/turtle
       format: http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
       type : http://www.w3.org/ns/dcat#Distribution
-    xsd:
-      mediaType: https://www.iana.org/assignments/media-types/application/rdf+xml
-      format: http://publications.europa.eu/resource/authority/file-type/RDF_XML
-      type: http://www.w3.org/ns/dcat#Distribution
+#    xsd:
+#      mediaType: https://www.iana.org/assignments/media-types/application/rdf+xml
+#      format: http://publications.europa.eu/resource/authority/file-type/RDF_XML
+#      type: http://www.w3.org/ns/dcat#Distribution
     jsonld:
       mediaType: https://www.iana.org/assignments/media-types/application/ld+json
       format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
@@ -110,6 +110,7 @@ prefixes :
   access_right: http://publications.europa.eu/resource/authority/access-right/
   adms: http://www.w3.org/ns/adms#
   assettype: http://purl.org/adms/assettype/
+  beo: https://data.vlaanderen.be/ns/bodemenondergrond#
   conceptscheme: https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/
   country: http://publications.europa.eu/resource/authority/country/
   datasets: https://datasets.omgeving.vlaanderen.be/

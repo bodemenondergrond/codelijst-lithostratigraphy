@@ -1,0 +1,36 @@
+
+PREFIX beo:  <https://data.vlaanderen.be/ns/bodemenondergrond#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX fun:  <http://www.gezever.be/functions/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xs:   <http://www.w3.org/2001/XMLSchema>
+
+select ?uri ?type ?prefLabel ?broader ?inScheme ?topConceptOf ?seeAlso ?abbreviation ?age ?alternative_names ?area_of_occurrence ?authors ?child_unit ?child_units ?cite_as ?date ?lithological_description ?parent_unit ?thickness ?type_locality ?source
+where
+{ ?uri a ?type .
+optional {?uri skos:inScheme ?inScheme .}
+optional {?uri skos:inScheme ?inScheme .}
+optional {?broader skos:narrower ?uri .}
+optional {?uri skos:prefLabel ?prefLabel .}
+optional {?uri skos:topConceptOf ?topConceptOf .}
+optional {?uri rdfs:seeAlso ?seeAlso .}
+optional {?uri beo:abbreviation ?abbreviation .}
+optional {?uri beo:age ?age .}
+optional {?uri beo:alternative_names ?alternative_names .}
+optional {?uri beo:area_of_occurrence ?area_of_occurrence .}
+optional {?uri beo:authors ?authors .}
+optional {?uri beo:child_unit ?child_unit .}
+optional {?uri beo:child_units ?child_units .}
+optional {?uri beo:cite_as ?cite_as .}
+optional {?uri beo:date ?date .}
+optional {?uri beo:lithological_description ?lithological_description .}
+optional {?uri beo:parent_unit ?parent_unit .}
+optional {?uri beo:thickness ?thickness .}
+optional {?uri beo:type_locality ?type_locality .}
+optional {?uri dct:source ?source .}
+
+
+
+}
